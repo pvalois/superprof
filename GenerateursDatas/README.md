@@ -12,6 +12,13 @@ Le but de ces données est de travailler les commandes unix suivantes :
 - uniq : supprimer les doublons
 - tr : effectuer des transformations
 
+Chaque commence dispose d'une aide disponible avec les commandes : 
+
+```bash
+man <commande>
+info <commande>
+```
+
 et de façon plus avancée : 
 
 - sed : modifications des données 
