@@ -20,11 +20,11 @@ def generate_triplet():
     
     return [first_name, last_name, gender]
 
-# Generate and save 40 files with triplets
-for i in range(40):
+# Generate 10 files
+for i in range(10):
     file_name = f"triplet_file_{i+1}.csv"
     with open(file_name, 'w', newline='') as file:
         writer = csv.writer(file)
-        # Write 100 triplets to each file
-        for _ in range(100):
+        # Write 1000 triplets to each file
+        for _ in range(1000):
             writer.writerow(generate_triplet())
