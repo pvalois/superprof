@@ -11,6 +11,7 @@ Le but de ces données est de travailler les commandes unix suivantes :
 - sort : trier les données 
 - uniq : supprimer les doublons
 - tr : effectuer des transformations
+- wc : compter le nombre de caractères, mots ou caractère
 
 Chaque commence dispose d'une aide disponible avec les commandes : 
 
