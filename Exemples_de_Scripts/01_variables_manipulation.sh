@@ -2,7 +2,7 @@
 
 ### Extration de parties de la chaine 
 
-mydate=$(date +"%Y%m%d")
+mydate=$(date +"%Y%m%d")    #Affecte le resultat d'une commande a une varible
 
 Year=${mydate:0:4}
 Month=${mydate:4:2}
