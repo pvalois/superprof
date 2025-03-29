@@ -13,7 +13,7 @@ Le but de ces données est de travailler les commandes unix suivantes :
 - tr : effectuer des transformations
 - wc : compter le nombre de caractères, mots ou caractère
 
-Chaque commence dispose d'une aide disponible avec les commandes : 
+Chaque commande dispose d'une aide disponible avec les commandes : 
 
 ```bash
 man <commande>
@@ -22,9 +22,10 @@ info <commande>
 
 et de façon plus avancée : 
 
+- variables : creation, utilisation, modifications
+- for, while, if : pour les boucles et conditions
 - sed : modifications des données 
 - awk : traitement des données
-- for, if : pour les boucles et conditions
 
 ansi que les méchanismes de pipe \| et de redirection \< et \>
 
