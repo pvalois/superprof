@@ -3,7 +3,7 @@
 echo "Nombre d'arguments passés : $#"
 echo "Premier argument : $1"
 
-# Moditification du séparateur IFS
+# Moditification du séparateur IFS (Internal Field Separator)
 
 f="bonjour monsieur durand"
 for i in $f ; do echo $i ; done
