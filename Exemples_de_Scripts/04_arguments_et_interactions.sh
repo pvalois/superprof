@@ -1,8 +1,20 @@
 #!/bin/bash
 
+echo "Nombre d'arguments passés : $#"
+echo "Premier argument : $1"
+
+# Moditification du séparateur IFS
+
+f="bonjour monsieur durand"
+for i in $f ; do echo $i ; done
+
+f="mon:separateur:est:deux:points"
+IFS=":"
+for i in $f ; do echo $i ; done
+
+# Demande de réponse clavier
+
 echo "Votre nom ?"
 read nom
 echo "Bonjour, $nom !"
 
-echo "Nombre d'arguments passés : $#"
-echo "Premier argument : $1"
