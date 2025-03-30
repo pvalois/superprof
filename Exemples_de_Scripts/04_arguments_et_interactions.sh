@@ -12,6 +12,10 @@ f="mon:separateur:est:deux:points"
 IFS=":"
 for i in $f ; do echo $i ; done
 
+# Réinitialiser IFS à son état par défaut
+
+IFS=$' \t\n'
+
 # Demande de réponse clavier
 
 echo "Votre nom ?"
