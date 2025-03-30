@@ -1,4 +1,4 @@
-Voici un ensemble de script shell, qui demandent : 
+Voici un ensemble de scripts shell, qui demandent : 
 
 * A être commenté
 * A ce que les variables portent des noms parlants
