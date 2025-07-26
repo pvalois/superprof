@@ -36,7 +36,7 @@ dictionary = {'request': ['GET', 'POST', 'PUT', 'DELETE'], 'endpoint': ['/usr', 
             'referrer' : ['-',fak.uri()]}
 
 f = open("logfiles.log","w")
-for r in range(1,1000001):
+for r in range(1,10000):
     print ("Generating record number",r)
     f.write('%s - - [%s] "%s %s HTTP/1.0" %s %s "%s" "%s" %s\n' % 
         (fak.ipv4(),
