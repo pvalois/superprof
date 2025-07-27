@@ -7,4 +7,5 @@ Ecrire les scripts suivants :
 * Rechercher dans /var/log les fichier .log qui contiennent un mot
   - ce mot sera passé en argument du script
 * Analyseur de CSV (lecture + statistiques simples)
-
+* Simuler 100 lancés de dés et calculer les répartitions de résultats
+* Simuler un tirage de 6 boules du loto
