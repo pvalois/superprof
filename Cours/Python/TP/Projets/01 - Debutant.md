@@ -7,4 +7,6 @@ Ecrire les scripts suivats :
 * Nombres pairs et impairs : on affiche les nombres pairs et impairs de 1 à 20
 * Somme des éléments d’une liste : etant donne une liste de nombre, en faire la somme
 * Convertir Celsius en Fahrenheit 
+* Lire une chaîne utilisateur et compter le nombre de mots
+* Créer une liste de 10 entiers aléatoires et afficher leur moyenne
 
