@@ -1,0 +1,29 @@
+➕ Section 04–09 : manip de chaînes, structures
+
+    04 - string_manip.py
+    05 - list_tuples.py
+    06 - dict_counter.py
+
+➕ Section 11–19 : texte & fichiers
+
+    11 - mots_communs.py (intersection entre deux textes)
+    12 - mots_uniques.py
+    13 - lecture_fichier.py
+
+➕ Section 21–29 : fichiers + regex
+
+    21 - parse_syslog.py
+    22 - grep_like.py
+
+➕ Section 30–39 : fonctions, modules, imports
+
+    30 - fonctions.py
+    31 - lambda_filter_map.py
+    32 - creation_module.py
+
+➕ Section 40–49 : usage de modules classiques
+
+    40 - datetime_example.py
+    41 - random_example.py
+    42 - os_walk.py
+
