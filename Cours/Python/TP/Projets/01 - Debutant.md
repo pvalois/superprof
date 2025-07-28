@@ -1,4 +1,4 @@
-Ecrire les scripts suivats : 
+Ecrire les scripts suivants : 
 
 * Afficher Hello, World !
 * Calculatrice simple : on demande deux chiffres et une operation, on donne le resultat
