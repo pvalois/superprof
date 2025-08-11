@@ -13,4 +13,6 @@ Ecrire un script script qui prend un fichier en argument et affiche son nombre d
 
 Remplacer les espaces par des underscores dans les noms de fichiers d’un dossier
 
+# Trouver le fichier qui a le nom le plus long 
 
+Dans le dossier courant sans aller verifier les sous-dossiers

@@ -2,7 +2,7 @@
 
 Écrire un script qui log l’utilisation CPU et RAM toutes les X secondes et déclenche une alerte si ça dépasse un seuil
 
-* X doit être spéficié en premier argument ou avoir une valeur par défaut de 10 secondes
+* X doit être spécifié en premier argument ou avoir une valeur par défaut de 10 secondes
 
 # Simuler un mini système de gestion d’utilisateurs
 

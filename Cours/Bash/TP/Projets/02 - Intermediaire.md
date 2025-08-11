@@ -18,3 +18,9 @@ Ecrire un script qui archive un dossier et l’envoie sur un serveur distant via
 
 * Les informations du serveur doivent être précisés sous forme de variable
 * Un fichier de log daté doit être généré
+
+# Dirty monitoring 
+
+* Ecrire un script qui éxecutera une commande informative (ex: df -h)
+* A chaque nouvelle exécution du script elle ne doit nous afficher que les différences avec la précédente exécution
+* Info : il faudra utiliser une trace pour savoir comment c'était avant, et bien sur, maintenir cette trace :)
