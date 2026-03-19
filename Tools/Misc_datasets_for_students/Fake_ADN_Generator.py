@@ -2,6 +2,10 @@
 
 import random
 import os
+from pathlib import Path
+
+chemin = Path("dna")
+chemin.mkdir(parents=True, exist_ok=True)
 
 # Function to generate a random DNA sequence
 def generate_dna_sequence(length=38):
@@ -46,7 +50,7 @@ adn_sex={'Male':'AA', 'Female':'AT'}
 
 # Generate files and sequences
 for i in range(1, num_files + 1):
-  file_path = f"dna_data_{i:02}.csv"
+  file_path = f"dna/dna_data_{i:02}.csv"
   data = []
     
   for _ in range(num_entries_per_file):

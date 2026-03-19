@@ -2,6 +2,11 @@
 
 import csv
 import random
+from pathlib import Path
+
+chemin = Path("nameslist")
+chemin.mkdir(parents=True, exist_ok=True)
+
 
 # List of names and surnames for generating triplets
 first_names_male = ["John", "David", "Michael", "Chris", "James", "Robert", "William", "Mark", "Andrew", "Paul"]
@@ -24,7 +29,7 @@ def generate_triplet():
 
 # Generate 10 files
 for i in range(10):
-    file_name = f"triplet_file_{i+1}.csv"
+    file_name = f"nameslist/triplet_file_{i+1:02}.csv"
     with open(file_name, 'w', newline='') as file:
         writer = csv.writer(file)
         # Write 1000 triplets to each file

@@ -3,6 +3,10 @@
 import pandas as pd
 import random
 from faker import Faker
+from pathlib import Path
+
+chemin = Path("compta")
+chemin.mkdir(parents=True, exist_ok=True)
 
 fake = Faker()
 
@@ -24,5 +28,5 @@ def generate_fake_compta():
 # Générer 5 fichiers
 for i in range(1, 6):
     df = generate_fake_compta()
-    df.to_excel(f'fake_compta_{i}.xlsx', index=False)
+    df.to_excel(f'compta/fake_compta_{i:02}.xlsx', index=False)
 
