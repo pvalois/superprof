@@ -1,7 +1,7 @@
 TP d'installation de linux 
 
-    * Récupérer l'iso d'ubuntu 24.04 
-    * Télécharger et installer Balena Etcher
-    * Utiliser Balena Etcher pour copier l'iso sur une clef usb
-    * Booter l'ordinauter "cible" avec la clef usb
+    * Récupérer l'ISO d'Ubuntu 24.04 
+    * Télécharger et Installer Balena Etcher
+    * Utiliser Balena Etcher pour copier l'ISO sur une clef usb
+    * Booter l'ordinateur "cible" avec la clef usb
     * Procéder à l'installation 
